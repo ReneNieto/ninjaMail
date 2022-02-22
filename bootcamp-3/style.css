@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+.header__main-container {
+	width: 100vw;
+	padding-inline: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__nav-item {
+	width: 110px;
+	padding: 6px;
+	margin-inline: 19px;
+	font-size: 17px;
+	font-weight: 800;
+	color: #000000;
+	line-height: 20px;
+	border-bottom: 4px solid #4ba87d;
+	transition: 500ms;
+}
+
+.header__nav-item:hover {
+	border-bottom: 4px solid white;
+	transform: scale(1.2);
+}
+
+.header__signup-btn {
+	width: 168px;
+	height: 40px;
+	border: none;
+	background-color: #4ba87d;
+	color: #ffffff;
+	text-transform: uppercase;
+	padding-inline: 20px;
+	padding-block: 10px;
+	font-size: 17px;
+	font-weight: 800;
+	line-height: 20px;
+	text-align: center;
+	transition: 500ms;
+}
+
+.header__signup-btn:hover {
+	color: black;
+	background-color: #ffffff;
+	border: 4px solid #4ba87d;
+	transform: scale(1.2);
+}
+
+.header__title {
+	padding-block-start: 21px;
+}
